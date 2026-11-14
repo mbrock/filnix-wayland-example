@@ -1,0 +1,64 @@
+{
+  "nodes": {
+    "filnix": {
+      "inputs": {
+        "finix": "finix",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1794674480,
+        "narHash": "sha256-CNAFFYjGF1u8PBrRbwstN/Rz5SQwjdNtJZJkqcOWKwY=",
+        "owner": "mbrock",
+        "repo": "filnix",
+        "rev": "29888e5d8889aa6d0e24d188f97cb2aeca1331ae",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mbrock",
+        "repo": "filnix",
+        "type": "github"
+      }
+    },
+    "finix": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1791396781,
+        "narHash": "sha256-ftxhTlFuBHQcXhztoiVQSkQ1aW3j28sZNSosINkZBXk=",
+        "owner": "finix-community",
+        "repo": "finix",
+        "rev": "9fafdc3f091e963585a0dd4df028d58c2d66d815",
+        "type": "github"
+      },
+      "original": {
+        "owner": "finix-community",
+        "repo": "finix",
+        "rev": "9fafdc3f091e963585a0dd4df028d58c2d66d815",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1790508902,
+        "narHash": "sha256-hbngtJs49PqmFpw7QQZRNiSEwd9Q5qtUKKshZHTfGJs=",
+        "owner": "lessrest",
+        "repo": "filnixpkgs",
+        "rev": "e63c68034d742160a48ca80640442337e6356cf4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lessrest",
+        "repo": "filnixpkgs",
+        "rev": "e63c68034d742160a48ca80640442337e6356cf4",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "filnix": "filnix"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
